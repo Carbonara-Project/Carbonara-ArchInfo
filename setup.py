@@ -9,6 +9,6 @@ except ImportError:
 
 setup(
     name='carbonara-archinfo',
-    version='7.7.9.14',
+    version='7.7.9.14_1',
     packages=packages
 )
