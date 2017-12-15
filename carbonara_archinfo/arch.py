@@ -1,7 +1,7 @@
 import struct as _struct
 import platform as _platform
 import re
-from archinfo.archerror import ArchError
+from carbonara_archinfo.archerror import ArchError
 
 try:
     import carbonara_pyvex as _pyvex
