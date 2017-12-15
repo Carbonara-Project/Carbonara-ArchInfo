@@ -4,7 +4,7 @@ import re
 from archinfo.archerror import ArchError
 
 try:
-    import pyvex as _pyvex
+    import carbonara_pyvex as _pyvex
 except ImportError:
     _pyvex = None
 

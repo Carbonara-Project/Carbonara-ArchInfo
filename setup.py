@@ -8,7 +8,7 @@ except ImportError:
     packages = [x.strip('./').replace('/','.') for x in os.popen('find -name "__init__.py" | xargs -n1 dirname').read().strip().split('\n')]
 
 setup(
-    name='archinfo',
+    name='carbonara-archinfo',
     version='7.7.9.14',
     packages=packages
 )
